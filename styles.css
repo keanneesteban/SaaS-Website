@@ -717,8 +717,6 @@ footer h3 { font-size: 14px; }
 .footer-top-wrapper ul {
     margin: auto;
     height: 200px;
-    /* display: flex;
-    flex-direction: column; */
     width: max-content;
     line-height: 15px;
 }
@@ -750,9 +748,22 @@ footer h3 { font-size: 14px; }
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
 .footer-socials a:hover { background-color: gray; }
+
+.footer-select-btn {
+    display: flex;
+    align-items: center;
+}
+
+#country {
+    background: rgb(230, 225, 225);
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+}
 
 .socials {
     width: 10px;
@@ -769,7 +780,7 @@ footer h3 { font-size: 14px; }
 }
 
 .disclaimer-p {
-    width: 500px;
+    /* width: 500px; */
     margin: auto;
 }
 
