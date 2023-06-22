@@ -316,9 +316,7 @@
     height: 200px;
     margin: auto;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 .elements {
@@ -339,14 +337,34 @@
     background-color: #F0F8FF;
 }
 
-.circle::after {
+.circle.basic::after {
     content: "";
     position: absolute;
     height: 1px;
     background: rgb(191, 191, 218);
-    width: 150px;
+    width: 90px;
+    margin-left: 4px;
     left: 40px;
-    
+}
+
+.circle.components::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: rgb(191, 191, 218);
+    width: 115px;
+    margin-left: 4px;
+    left: 40px;
+}
+
+.circle.combined::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: rgb(191, 191, 218);
+    width: 120px;
+    margin-left: 4px;
+    left: 40px;
 }
 
 .circle {
