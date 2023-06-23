@@ -11,7 +11,7 @@
         display: block;
         position: absolute;
         right: 0;
-        top: 50px;
+        top: var(--size-50);
         background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.7));
         width: 100%;
         text-align: right;
@@ -19,7 +19,7 @@
     }
 
     [aria-expanded="true"]~ul li a {
-        margin-right: 20px;
+        margin-right: var(--size-20);
         color: #666;
     }
 
@@ -32,7 +32,7 @@
 @media (max-width: 768px) {
 
     .navbar {
-        width: 768px;
+        width: 48rem;
         margin: inherit;
     }
 
@@ -50,19 +50,19 @@
     }
 
     .empowering-logo-div.paypal {
-        top: -100px;
+        top: -6.25rem;
     }
 
     .empowering-logo-div.weave {
-        top: -150px;
+        top: -9.375rem;
     }
 
     .empowering-logo-div.googleA {
-        top: -175px;
+        top: -10.9375rem;
     }
 
     .empowering-logo-div.calendar {
-        top: -175px;
+        top: -10.9375rem;
     }
 
     .empowering-logos-wrapper {
@@ -85,7 +85,7 @@
     }
 
     .benefits-div {
-        width: 300px;
+        width: 18.75rem;
     }
 
     .container.prospective {
@@ -112,9 +112,7 @@
         align-items: center;
     }
 
-    .banner-two-wrapper {
-
-    }
+    
 
     .banner-two { width: 48rem; }
     .banner-btn { margin-top: 8rem; }
@@ -128,9 +126,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 130px;
-        width: 500px;
-        margin-top: 100px;
+        margin-left: 8.125rem;
+        width: 31.25rem;
+        margin-top: var(--size-100);
         text-align: left;
     }
 
@@ -144,7 +142,7 @@
     }
 
     .pricing-text {
-        width: 768px;
+        width: 48rem;
     }
 
     .hubspot-logo-div {
@@ -156,11 +154,11 @@
         flex-direction: column;
         width: fit-content;
         align-items: center;
-        margin-left: 150px;
+        margin-left: 9.375rem;
     }
 
     .price-card-1 {
-        width: 445px;
+        width: 27.8125rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -174,12 +172,12 @@
 
     .hire-us-container {
         display: flex;
-        gap: 100px
+        gap: var(--size-100);
     }
 
     .form {
         width: max-content;
-        margin-left: 110px;
+        margin-left: 6.875rem;
     }
 
     .footer-top-wrapper {
@@ -201,6 +199,6 @@
 
     .footer-bottom-container {
         margin: auto;
-        gap: 200px;
+        gap: 12.5rem;
     }
 }

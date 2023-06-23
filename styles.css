@@ -13,8 +13,8 @@
 
 .navbar-toggler {
     position: absolute;
-    right: 20px;
-    top: 10px;
+    right: var(--size-20);
+    top: var(--size-10);
     outline: none;
     background-color: transparent;
     border: 1px solid transparent;
@@ -22,7 +22,7 @@
 
 .navbar-toggler span {
     color: #666;
-    font-size: 20px;
+    font-size: var(--size-20);
     cursor: pointer;
     pointer-events: none;
 }
@@ -41,7 +41,7 @@
 
 .btn.nav {
     color: var(--white);
-    width: 70px;
+    width: 4.375rem;
     font-size: var(--size-12);
 }
 
@@ -71,18 +71,18 @@
 .empowering-wrapper {
     padding-top: 5rem;
     background-image: linear-gradient(to bottom right, rgb(245, 244, 248) 75%, rgb(228, 227, 251) 25%);
-    height: 550px;
+    height: 34.375rem;
 }
 
 .empowering-div-wrapper { padding-left: 15px; }
 
 .empowering-div.header {
-    margin-bottom: 30px;
+    margin-bottom: var(--size-30);
 }
 
 .empowering-div-wrapper h1 {
     font-weight: 100;
-    font-size: 45px;
+    font-size: 2.8125rem;
     margin-bottom: var(--size-14);
 }
 
@@ -97,7 +97,7 @@
 }
 
 .empowering-logos-wrapper {
-    width: 500px;
+    width: 31.25rem;
 }
 
 .empowering-logos-wrapper img {
@@ -121,91 +121,91 @@
 .empowering-div-video {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: var(--size-20);
 }
 
 .empowering-logo-div>.google-logo {
-    width: 35px;
-    height: 35px;
-    padding: 8px;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    padding: .5rem;
 }
 
 .empowering-logo-div.google {
     position: relative;
-    right: -125px;
+    right: -7.8125rem;
 }
 
 .empowering-logo-div>.atlassian-logo {
-    width: 50px;
-    height: 50px;
-    padding: 12px;
+    width: var(--size-50);
+    height: var(--size-50);
+    padding: var(--size-12);
 }
 
 .empowering-logo-div.atlassian {
     position: relative;
-    right: -225px;
-    top: -50px
+    right: -14.0625rem;
+    top: -3.125rem;
 }
 
 .empowering-logo-div>.asana-logo {
-    width: 50px;
-    height: 50px;
-    padding: 12px;
+    width: var(--size-50);
+    height: var(--size-50);
+    padding: var(--size-12);
 }
 
 .empowering-logo-div.asana {
     position: relative;
-    top: -115px;
-    right: -400px;
+    top: -7.1875rem;
+    right: -25rem;
 }
 
 .empowering-logo-div>.paypal-logo {
-    width: 50px;
-    height: 50px;
-    padding: 12px;
+    width: var(--size-50);
+    height: var(--size-50);
+    padding: var(--size-12);
 }
 
 .empowering-logo-div.paypal {
     position: relative;
-    right: -100px;
+    right: -6.25rem;
 }
 
 .empowering-logo-div>.weave-logo {
-    width: 50px;
-    height: 50px;
-    padding: 12px;
+    width: var(--size-50);
+    height: var(--size-50);
+    padding: var(--size-12);
 }
 
 .empowering-logo-div.weave {
     position: relative;
-    top: -65px;
-    right: -310px;
+    top: -4.0625rem;
+    right: -19.375rem;
 }
 
 .empowering-logo-div>.googleA-logo {
-    width: 40px;
-    height: 40px;
-    padding: 8px;
+    width: var(--size-40);
+    height: var(--size-40);
+    padding: .5rem;
 }
 
 .empowering-logo-div.googleA {
     position: relative;
-    right: -210px;
+    right: -13.125rem;
 }
 
 .empowering-logo-div>.calendar-logo {
-    width: 50px;
-    height: 50px;
-    padding: 12px;
+    width: var(--size-50);
+    height: var(--size-50);
+    padding: var(--size-12);
 }
 
 .empowering-logo-div.calendar {
     position: relative;
-    right: -400px;
+    right: -25rem;
 }
 
 .benefits-section {
-    padding-top: 150px;
+    padding-top: 9.375rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -227,51 +227,51 @@
 
 .benefits-wrapper {
     display: flex;
-    gap: 20px;
+    gap: var(--size-20);
     justify-content: center;
-    margin-top: 50px;
+    margin-top: var(--size-50);
 }
 
 .benefits-div {
-    box-shadow: 0px 12px 12px lightgray;
-    width: 200px;
-    height: 250px;
-    padding-bottom: 20px;
+    box-shadow: 0px var(--size-12) var(--size-12) lightgray;
+    width: 12.5rem;
+    height: 15.625rem;
+    padding-bottom: var(--size-20);
 }
 
 .benefits-list {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    margin: 10px;
+    padding: var(--size-10);
+    margin: var(--size-10);
 }
 
 .benefits-list>li>h4 {
-    font-size: 14px;
+    font-size: var(--size-14);
     margin: 1rem 0;
 }
 
 .benefits-img {
-    width: 40px;
-    height: 35x;
+    width: var(--size-40);
+    height: 2.1875rem;
 }
 
 .benefits-list>li>p {
     color: gray;
     line-height: 1.5;
-    margin-top: -10px;
-    font-size: 14px;
+    margin-top: -0.625rem;
+    font-size: var(--size-14);
 }
 
 .benefits-list a {
     color: var(--font-color-blue);
-    font-size: 14px;
+    font-size: var(--size-14);
 }
 
 .premium {
     display: flex;
     align-items: center;
-    width: 30px;
+    width: var(--size-30);
 }
 
 .container.prospective {
@@ -279,7 +279,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 500px;
+    height: 31.25rem;
 }
 
 .prospective-wrapper {
@@ -288,8 +288,8 @@
 }
 
 .prospective {
-    margin-bottom: 150px;
-    margin-left: 50px;
+    margin-bottom: 9.375rem;
+    margin-left: var(--size-50);
 }
 
 .prospective h1 {
@@ -297,8 +297,8 @@
 }
 
 .banner-one {
-    width: 500px;
-    margin-bottom: -5px;
+    width: 31.25rem;
+    margin-bottom: -.3125rem;
 }
 
 .why-front-section {
@@ -313,17 +313,17 @@
 
 .elements-wrapper {
     width: max-content;
-    height: 200px;
+    height: 12.5rem;
     margin: auto;
     display: flex;
-    gap: 50px;
+    gap: var(--size-50);
 }
 
 .elements {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 14px;
+    font-size: var(--size-14);
 }
 
 .elements h4 { 
@@ -331,8 +331,8 @@
  }
 
 .circle {
-    width: 500px;
-    height: 30px;
+    width: 31.25rem;
+    height: var(--size-30);
     position: relative;
     background-color: #F0F8FF;
 }
@@ -341,50 +341,50 @@
     content: "";
     position: absolute;
     height: 1px;
-    background: rgb(191, 191, 218);
-    width: 90px;
-    margin-left: 4px;
-    left: 40px;
+    background: #e4eef7;
+    width: 5.625rem;
+    margin-left: .25rem;
+    left: var(--size-40);
 }
 
 .circle.components::after {
     content: "";
     position: absolute;
-    height: 1px;
-    background: rgb(191, 191, 218);
-    width: 115px;
-    margin-left: 4px;
-    left: 40px;
+    height: 0.0625rem;
+    background: #e4eef7;
+    width: 7.1875rem;
+    margin-left: .25rem;
+    left: var(--size-40);
 }
 
 .circle.combined::after {
     content: "";
     position: absolute;
-    height: 1px;
-    background: rgb(191, 191, 218);
-    width: 120px;
-    margin-left: 4px;
-    left: 40px;
+    height: 0.0625rem;
+    background: #e4eef7;
+    width: 7.5rem;
+    margin-left: .25rem;
+    left: var(--size-40);
 }
 
 .circle {
-    border-radius: 50px;
-    height: 40px;
-    width: 40px;
+    border-radius: var(--size-50);
+    height: var(--size-40);
+    width: var(--size-40);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .fa-circle {
-    height: 5px;
-    width: 5px;
+    height: .3125rem;
+    width: .3125rem;
 }
 
 .circle-last {
-    border-radius: 50px;
-    height: 40px;
-    width: 40px;
+    border-radius: var(--size-50);
+    height: var(--size-40);
+    width: var(--size-40);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -403,10 +403,10 @@
 }
 
 .banner-btn {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     position: relative;
-    border-radius: 50px;
+    border-radius: var(--size-50);
     margin-top: 12rem;
     display: flex;
     justify-content: center;
@@ -415,8 +415,8 @@
 }
 
 .banner-play-logo {
-    width: 18px;
-    height: 18px;
+    width: var(--size-18);
+    height: var(--size-18);
     margin: auto;
 }
 
@@ -428,39 +428,39 @@
 }
 
 .woman-three {
-    width: 300px;
-    height: 350px;
+    width: 18.75rem;
+    height: 21.857rem;
     position: absolute;
-    padding-top: 5px;
-    padding-left: 88px;
+    padding-top: .3125rem;
+    padding-left: 5.5rem;
     z-index: 100;
 }
 
 .dots {
-    width: 250px;
-    height: 300px;
+    width: 15.625rem;
+    height: 18.75rem;
     position: relative;
-    padding-top: 100px;
+    padding-top: var(--size-100);
 }
 
 .hubspot-div {
     text-align: center;
-    margin-left: 200px;
-    width: 500px;
-    margin-top: 100px;
+    margin-left: 12.5rem;
+    width: 31.25rem;
+    margin-top: var(--size-100);
     text-align: left;
 }
 
-.hubspot-div h4 { margin: 50px 0px -5px 0px; }
+.hubspot-div h4 { margin: 3.125rem 0rem -.3125rem 0rem; }
 
 .executive {
-    font-size: 12px;
+    font-size: var(--size-12);
     color: rgb(169, 169, 169);
 }
 
 .hubspot-logo {
-    width: 75px;
-    height: 25px;
+    width: 4.6875rem;
+    height: 1.5625rem;
 }
 
 .company-wrapper {
@@ -480,8 +480,8 @@
 }
 
 .company-logos img {
-    width: 100px;
-    height: 50px;
+    width: var(--size-100);
+    height: var(--size-50);
 }
 
 .pricing-text { text-align: center; }
@@ -501,14 +501,14 @@
 .price-cards-wrapper {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: var(--size-50);
 }
 
 
 .pricing-wrapper h3 { font-size: 14px; }
 
 .pricing-wrapper p { 
-    font-size: 12px;
+    font-size: var(--size-12);
     color: gray;
 }
 
@@ -518,34 +518,34 @@
  } 
 
 .price-card-1 {
-    width: 230px;
-    padding: 50px 20px;
-    box-shadow: 0px 12px 12px lightgray;
+    width: 14.375rem;
+    padding: var(--size-50) var(--size-20);
+    box-shadow: 0rem var(--size-12) var(--size-12) lightgray;
 }
 
-.price-card-1 a { margin-top: 50px; }
+.price-card-1 a { margin-top: var(--size-50); }
 
 .price-card-1 p { 
     color: gray;
-    font-size: 14px;
+    font-size: var(--size-14);
 }
 
-.price-number { font-size: 40px; }
+.price-number { font-size: var(--size-40); }
 
 .month { color: gray; }
 
 .price-card-2 {
     grid-column-start: 2;
     grid-row-end: 2;
-    width: 200px;
-    padding: 20px;
+    width: 12.5rem;
+    padding: var(--size-20);
 }
 
 .price-card-3 {
     grid-column-start: 3;
     grid-column-end: 3;
-    width: 200px;
-    padding: 20px;
+    width: 12.5rem;
+    padding: var(--size-20);
 }
 
 .price-card-4 {
@@ -553,8 +553,8 @@
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 2;
-    width: 200px;
-    padding: 20px;
+    width: 12.5rem;
+    padding: var(--size-20);
 }
 
 .cancel { 
@@ -568,8 +568,8 @@
 }
 
 .sketch.cancel {
-    width: 60px;
-    font-size: 10px;
+    width: 3.75rem;
+    font-size: var(--size-10);
 }
 
 .price-card-5 { 
@@ -577,64 +577,64 @@
     grid-row-end: 3;
     grid-column-start: 3;
     grid-column-end: 3;
-    width: 200px;
-    padding: 20px;
+    width: 12.5rem;
+    padding: var(--size-20);
 }
 
 .hire-us-wrapper {
     display: flex;
     justify-content: center;
     width: 64rem;
-    height: 600px;
+    height: 37.5rem;
     margin: 5rem auto;
 }
 
 .hire-us-container {
-    padding: 50px;
-    margin: 20px;
-    padding-top: 100px;
+    padding: var(--size-50);
+    margin: var(--size-20);
+    padding-top: var(--size-100);
 }
 
-.hire-us-div h4 { margin-top: 50px;}
+.hire-us-div h4 { margin-top: var(--size-50);}
 
-.love-front { font-size: 14px;}
+.love-front { font-size: var(--size-14);}
 
 .goal { 
     color: gray;
-    font-size: 14px;
+    font-size: var(--size-14);
 }
 
 .commercial {
     color: gray;
-    font-size: 12px;
-    margin-top: -15px;
+    font-size: var(--size-12);
+    margin-top: -.9375rem;
 }
 
 .hr { color: white; }
 
 .hire-us-img { 
-    width: 175px;
+    width: 10.9375rem;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: baseline;
-    gap: 20px;
+    gap: var(--size-20);
 }
 
 .hire-img-icons img {
-    margin-right: 10px;
+    margin-right: var(--size-10);
 }
 
-.hire-us-img img { border-radius: 50px; }
+.hire-us-img img { border-radius: var(--size-50); }
 
 .woman {
-    width: 30px;
-    height: 30px;
+    width: var(--size-30);
+    height: var(--size-30);
 }
 
 .man {
-    width: 50px;
-    height: 50px;
+    width: var(--size-50);
+    height: var(--size-50);
 }
 
 .form {
@@ -642,44 +642,44 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 20px;
+    border-radius: var(--size-10);
+    margin: var(--size-20);
+    padding: var(--size-20);
     background-color: white;
     color: black;
-    width: 400px;
+    width: 25rem;
     width: min-content;
 }
 
 .form-divs {
-    margin: 0 0 30px 0;
+    margin: 0 0 var(--size-30) 0;
 }
 
-.form-wrapper p { font-size: 14px;}
+.form-wrapper p { font-size: var(--size-14);}
 
 .form-wrapper input,
 .form-wrapper select,
 .form-wrapper textarea {
-    border: .5px solid lightgray;
-    border-radius: 5px;
+    border: .03125rem solid lightgray;
+    border-radius: .3125rem;
 }
 
 .form-wrapper input,
 .form-wrapper select { 
-    height: 30px;
-    width: 145px;
+    height: var(--size-30);
+    width: 9.0625rem;
 }
 
 .form-wrapper textarea {
     font-family: 'Hinds', sans-serif;
-    font-size: 12px;
+    font-size: var(--size-12);
 }
 
 input[type=checkbox] {
-    height: 30px;
-    width: 30px;
-    border: .5px solid lightgray;
-    border-radius: 5px;
+    height: var(--size-30);
+    width: var(--size-30);
+    border: .03125rem solid lightgray;
+    border-radius: .3125rem;
 }
 
 .checkbox-div {
@@ -687,34 +687,31 @@ input[type=checkbox] {
     align-items: center;
 }
 
+.policy a,
 .checkbox-div p {
-    font-size: 10px;
+    font-size: var(--size-10);
     color: gray;
 }
 
-.policy a { 
-    font-size: 10px;
-    color: gray;
-}
 
 .policy a:hover { color: var(--font-color-blue)}
 
 .btn.nav.policy {
-    margin: 10px auto;
-    font-size: 8px;
-    padding: 12px;
+    margin: var(--size-10) auto;
+    font-size: .5rem;
+    padding: var(--size-12);
     cursor: pointer;
 }
 
 footer a,
 footer li,
 footer p {
-    font-size: 11px;
+    font-size: .6875rem;
     color: gray;
-    margin-top: 5px;
+    margin-top: .3125rem;
 }
 
-footer h3 { font-size: 14px; }
+footer h3 { font-size: var(--size-14); }
 
 .footer-top-wrapper { display: flex; }
 
@@ -726,41 +723,41 @@ footer h3 { font-size: 14px; }
 .footer-bottom-container { 
     display: flex;
     justify-content: center;
-    gap: 450px;
-    margin: 0px 30px;
+    gap: 28.125rem;
+    margin: 0rem var(--size-30);
 }
 
 .footer-top-wrapper ul {
     margin: auto;
-    height: 200px;
+    height: 12.5rem;
     width: max-content;
-    line-height: 15px;
+    line-height: .9375rem;
 }
 
-.contact { padding-top: 18px; }
+.contact { padding-top: var(--size-18); }
 
 .resource-icons {
     display: flex;
     align-items: baseline;
-    gap: 5px;
-    height: 18px;
+    gap: .3125rem;
+    height: var(--size-18);
 }
 
 .terms-container {
     display: flex;
-    gap: 5px;
+    gap: .3125rem;
 }
 
 .footer-socials {
     display: flex;
-    gap: 10px;
+    gap: var(--size-10);
     margin: auto;
 }
 
 .footer-socials a {
     background-color: rgb(230, 225, 225);
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -776,13 +773,13 @@ footer h3 { font-size: 14px; }
 #country {
     background: rgb(230, 225, 225);
     border: none;
-    padding: 4px;
-    border-radius: 5px;
+    padding: .25rem;
+    border-radius: .3125rem;
 }
 
 .socials {
-    width: 10px;
-    height: 10px;
+    width: var(--size-10);
+    height: var(--size-10);
 }
 
 .disclaimer-container { text-align: center; }
@@ -791,43 +788,43 @@ footer h3 { font-size: 14px; }
     display: flex;
     justify-content: center;
     align-items: baseline;
-    gap: 5px;
+    gap: .3125rem;
 }
 
 .disclaimer-p {
-    width: 500px;
+    width: 31.25rem;
     margin: auto;
 }
 
 
-.footer-logo { width: 75px; }
-.location-div img { width: 10px; }
+.footer-logo { width: 4.6875rem; }
+.location-div img { width: var(--size-10); }
 .address { display: flex; }
 
 .location-div { display: flex; }
 
 .footer-img { 
-    width: 10px;
-    gap: 5px;
+    width: var(--size-10);
+    gap: .3125rem;
 }
 
 .career {
     display: flex;
     align-items: baseline;
-    gap: 10px;
-    height: 20px;
+    gap: var(--size-10);
+    height: var(--size-20);
 }
 
 .career div {
     color: white;
-    font-size: 7px;
-    padding: 0px 5px;
+    font-size: .4375rem;
+    padding: 0rem .3125rem;
     background: var(--font-color-blue);
-    border-radius: 3px;
+    border-radius: .1875rem;
 }
 
 footer span {
-    font-size: 11px;
+    font-size: .6875rem;
     display: contents;
     color: gray;
 }
