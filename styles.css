@@ -135,19 +135,17 @@
     right: -7.8125rem;
 }
 
-.empowering-logo-div>.atlassian-logo {
-    width: var(--size-50);
-    height: var(--size-50);
-    padding: var(--size-12);
-}
-
 .empowering-logo-div.atlassian {
     position: relative;
     right: -14.0625rem;
     top: -3.125rem;
 }
 
-.empowering-logo-div>.asana-logo {
+.empowering-logo-div>.atlassian-logo,
+.empowering-logo-div>.asana-logo,
+.empowering-logo-div>.paypal-logo,
+.empowering-logo-div>.weave-logo,
+.empowering-logo-div>.calendar-logo {
     width: var(--size-50);
     height: var(--size-50);
     padding: var(--size-12);
@@ -159,22 +157,11 @@
     right: -25rem;
 }
 
-.empowering-logo-div>.paypal-logo {
-    width: var(--size-50);
-    height: var(--size-50);
-    padding: var(--size-12);
-}
-
 .empowering-logo-div.paypal {
     position: relative;
     right: -6.25rem;
 }
 
-.empowering-logo-div>.weave-logo {
-    width: var(--size-50);
-    height: var(--size-50);
-    padding: var(--size-12);
-}
 
 .empowering-logo-div.weave {
     position: relative;
@@ -191,12 +178,6 @@
 .empowering-logo-div.googleA {
     position: relative;
     right: -13.125rem;
-}
-
-.empowering-logo-div>.calendar-logo {
-    width: var(--size-50);
-    height: var(--size-50);
-    padding: var(--size-12);
 }
 
 .empowering-logo-div.calendar {
