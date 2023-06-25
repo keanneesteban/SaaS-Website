@@ -112,29 +112,35 @@
         align-items: center;
     }
 
-    
 
-    .banner-two { width: 48rem; }
-    .banner-btn { margin-top: 8rem; }
+
+    .banner-two {
+        width: 48rem;
+    }
+
+    .banner-btn {
+        margin-top: 8rem;
+    }
 
     .hubspot-wrapper {
         display: flex;
         flex-direction: column;
+        width: fit-content;
     }
 
     .hubspot-div {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 8.125rem;
+        margin: auto;
         width: 31.25rem;
-        margin-top: var(--size-100);
         text-align: left;
     }
 
     .woman-div {
         display: flex;
-        margin-left: 10rem;
+        margin: revert;
+        padding-bottom: 3rem;
     }
 
     .company-wrapper {
@@ -200,5 +206,119 @@
     .footer-bottom-container {
         margin: auto;
         gap: 12.5rem;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .navbar {
+        width: 23.4375rem;
+        margin-left: 1.5625rem;
+    }
+
+    .empowering-logos-wrapper {
+        width: 18.75rem;
+        margin-left: -6rem;
+    }
+
+    .elements-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle:after {
+        display: none;
+    }
+
+    .elements-wrapper {
+        margin-bottom: 12rem;
+    }
+
+    .elements {
+        display: flex;
+        flex-direction: row;
+        gap: .625rem;
+    }
+
+    .banner-one {
+        width: 25rem;
+    }
+
+    .banner-two {
+        width: 25rem;
+    }
+
+    .banner-btn {
+        margin-top: 4rem;
+    }
+
+    .hubspot-div {
+        width: auto;
+    }
+
+    .company-logos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hire-us-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price-div {
+        margin-left: -4.5rem;
+    }
+
+    .pricing-text {
+        width: fit-content;
+        margin-left: 5.5rem;
+    }
+
+    .price-card-1 {
+        width: 12.5rem;
+    }
+
+    .price-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        width: min-content;
+        margin: 1.15rem;
+    }
+
+    .form-divs {
+        display: flex;
+        flex-direction: column;
+        gap: .625rem;
+    }
+
+    #fname,
+    #lname,
+    #email,
+    #website,
+    #budget,
+    #country-form {
+        width: auto;
+    }
+
+    .footer-top-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-top-wrapper ul {
+        height: auto;
+    }
+
+    .footer-bottom-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
     }
 }
