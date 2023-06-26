@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="default.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="responsive.css">
-
 </head>
 
 <body>
@@ -527,27 +526,19 @@
                 </div>
             </div>
         </div>
-
-
     </footer>
 
-
-
-
-
-
-    <script src="" async defer>
-
-        const navButton = document.querySelector('button[aria-expanded]');
-
+    <script>
+               const navButton = document.querySelector('button[aria-expanded]');
+        
         function toggleNav({ target }) {
             const expanded = target.getAttribute('aria-expanded') === 'true' || false;
             navButton.setAttribute('aria-expanded', !expanded);
         }
 
         navButton.addEventListener('click', toggleNav);
-
     </script>
+
 </body>
 
 </html>

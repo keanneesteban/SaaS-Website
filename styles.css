@@ -72,6 +72,7 @@
     padding-top: 5rem;
     background-image: linear-gradient(to bottom right, rgb(245, 244, 248) 75%, rgb(228, 227, 251) 25%);
     height: 34.375rem;
+
 }
 
 .empowering-div-wrapper { padding-left: 15px; }
@@ -469,8 +470,8 @@
 .pricing-text p { color: gray; }
 
 .pricing-wrapper { 
-    width: 64rem;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
  }
 
 .price-cards {
