@@ -151,6 +151,7 @@
 
     .company-wrapper {
         width: auto;
+        margin: 5rem 0;
     }
 
     .pricing-text {
@@ -187,10 +188,15 @@
         gap: var(--size-100);
     }
 
-    .form {
-        width: max-content;
-        margin-left: 6.875rem;
+    .form { width: 42rem; }
+    .checkbox-div { justify-content: center; }
+    
+    .form-divs > input,
+    .form-divs > select {
+        width: 16rem;
     }
+
+    #message-select { width: 32rem; }
 
     .footer-top-wrapper {
         max-width: fit-content;
@@ -215,17 +221,20 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
 
-    .navbar {
-        width: 23.4375rem;
-        margin-left: 1.5625rem;
-    }
+    .navbar { width: 23.4375rem; }
 
     .empowering-logos-wrapper {
-        width: 18.75rem;
-        margin-left: -6rem;
+      width: min-content;
+      margin-left: -5rem;
+      padding: 0;
     }
+
+    .empowering-logo-div.asana,
+    .empowering-logo-div.calendar
+    { margin-left: -3rem; }
+
 
     .elements-wrapper {
         display: flex;
@@ -246,21 +255,14 @@
         gap: .625rem;
     }
 
-    .banner-one {
-        width: 25rem;
-    }
+    .banner-one { width: 22rem; }
 
-    .banner-two {
-        width: 25rem;
-    }
+    .banner-two { width: 22rem; }
 
-    .banner-btn {
-        margin-top: 4rem;
-    }
+    .banner-btn { margin-top: 3rem; }
+    .woman-div { margin-left: -2rem; }
 
-    .hubspot-div {
-        width: auto;
-    }
+    .hubspot-div { width: auto; }
 
     .company-logos {
         display: flex;
@@ -276,13 +278,11 @@
         flex-direction: column;
     }
 
-    .price-div {
-        margin-left: -4.5rem;
-    }
+    .price-div { margin-left: -5.5rem; }
 
     .pricing-text {
         width: fit-content;
-        margin-left: 5.5rem;
+        margin: auto;
     }
 
     .price-card-1 {
@@ -298,6 +298,17 @@
         width: min-content;
         margin: 1.15rem;
     }
+
+    .form { width: 18rem; }
+    .checkbox-div { justify-content: center; }
+    
+    .form-divs > input,
+    .form-divs > select {
+        width: 16rem;
+    }
+
+    #message-select { width: 17.5rem; }
+
 
     .form-divs {
         display: flex;
